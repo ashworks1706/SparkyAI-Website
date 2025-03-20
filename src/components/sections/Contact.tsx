@@ -39,7 +39,7 @@ const Contact = () => {
                   <Linkedin className="h-5 w-5 text-sparky-maroon" />
                 </div>
                 <a 
-                  href="https://linkedin.com/ashworks" 
+                  href="https://linkedin.com/in/ashworks" 
                   className="text-gray-700 hover:text-sparky-maroon flex items-center space-x-1"
                   target="_blank"
                   rel="noopener noreferrer"
@@ -53,7 +53,7 @@ const Contact = () => {
             <div className="p-6 bg-gray-50 rounded-2xl border border-gray-100">
               <h3 className="text-lg font-medium mb-2">About the Author</h3>
               <p className="text-gray-600 mb-4">
-                SparkyAI was developed by Ash, a passionate AI engineer dedicated to creating intelligent solutions for campus environments.
+                SparkyAI was developed by Ash, dedicated to creating intelligent solutions for campus environments.
               </p>
               <a 
                 href="https://ashworks.dev" 

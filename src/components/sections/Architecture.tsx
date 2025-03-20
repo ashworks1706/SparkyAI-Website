@@ -35,7 +35,7 @@ const Architecture = () => {
                     <p className="text-gray-600 mb-4">Multi-agent system diagram combining RAG architecture with specialized task processing.</p>
                     <div className="relative w-full max-w-3xl mx-auto rounded-lg overflow-hidden shadow-md">
                       <img 
-                        src="https://github.com/user-attachments/assets/8fb16d4d-387c-402b-9b42-a8a25138dcc4" 
+                        src="https://github.com/user-attachments/assets/642fd6d6-5232-4347-b1dc-3e78d3d0c758" 
                         alt="SparkyAI Architecture Diagram" 
                         className="w-full h-auto"
                       />
