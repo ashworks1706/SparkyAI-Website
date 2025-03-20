@@ -1,69 +1,126 @@
-# Welcome to your Lovable project
+# Sparky Campus Assistant
 
-## Project info
+Sparky Campus Assistant is a Next.js-based web application designed to provide a seamless user experience with a modern UI powered by Tailwind CSS. This project is configured with TypeScript, ESLint, and PostCSS for a robust and maintainable development workflow.
 
-**URL**: https://lovable.dev/projects/ffd0b9c6-36fc-4eb6-bb45-0a603cd8fc6c
+## Features
 
-## How can I edit this code?
+- **Next.js Framework**: Built with the latest features of Next.js.
+- **TypeScript Support**: Ensures type safety and better developer experience.
+- **Tailwind CSS**: Fully styled with Tailwind CSS for rapid UI development.
+- **ESLint Configuration**: Pre-configured with ESLint for consistent code quality.
+- **PostCSS**: Integrated for advanced CSS processing.
+- **ShadCN UI**: Configured with ShadCN for reusable components.
+- **Icons**: Includes a variety of SVG icons in the `public` folder.
 
-There are several ways of editing your application.
+## Project Structure
 
-**Use Lovable**
+```
+.
+├── app/
+│   ├── favicon.ico
+│   ├── globals.css
+│   ├── layout.tsx
+│   └── page.tsx
+├── public/
+│   ├── favicon.ico
+│   ├── file.svg
+│   ├── globe.svg
+│   ├── next.svg
+│   ├── og-image.png
+│   ├── placeholder.svg
+│   ├── vercel.svg
+│   └── window.svg
+├── src/
+│   ├── App.css
+│   ├── App.tsx
+│   ├── index.css
+│   ├── main.tsx
+│   ├── vite-env.d.ts
+│   ├── components/
+│   ├── hooks/
+│   ├── lib/
+│   └── pages/
+├── components.json
+├── eslint.config.js
+├── index.html
+├── next.config.ts
+├── package.json
+├── postcss.config.js
+├── tailwind.config.ts
+├── tsconfig.app.json
+├── tsconfig.json
+├── tsconfig.node.json
+└── vite.config.ts
+```
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/ffd0b9c6-36fc-4eb6-bb45-0a603cd8fc6c) and start prompting.
+## Getting Started
 
-Changes made via Lovable will be committed automatically to this repo.
+### Prerequisites
 
-**Use your preferred IDE**
+- Node.js (v16 or higher)
+- npm or yarn
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### Installation
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+1. Clone the repository:
 
-Follow these steps:
+   ```bash
+   git clone https://github.com/your-username/sparky-campus-assistant.git
+   cd sparky-campus-assistant
+   ```
+2. Install dependencies:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+   ```bash
+   npm install
+   ```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+### Development
 
-# Step 3: Install the necessary dependencies.
-npm i
+To start the development server:
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+The application will be available at `http://localhost:3000`.
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+### Build
 
-**Use GitHub Codespaces**
+To build the project for production:
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+```bash
+npm run build
+```
 
-## What technologies are used for this project?
+### Linting
 
-This project is built with .
+To run ESLint:
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+```bash
+npm run lint
+```
 
-## How can I deploy this project?
+## Configuration
 
-Simply open [Lovable](https://lovable.dev/projects/ffd0b9c6-36fc-4eb6-bb45-0a603cd8fc6c) and click on Share -> Publish.
+### Tailwind CSS
 
-## I want to use a custom domain - is that possible?
+The Tailwind CSS configuration is located in [`tailwind.config.ts`](tailwind.config.ts). The base styles are defined in [`src/index.css`](src/index.css).
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+### ESLint
+
+The ESLint configuration is defined in [`eslint.config.js`](eslint.config.js). It includes support for React, TypeScript, and React Hooks.
+
+### Icons
+
+SVG icons are located in the [`public`](public/) folder and can be used in the application via the `Image` component from Next.js.
+
+## License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+## Acknowledgments
+
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [ShadCN UI](https://ui.shadcn.com/)
+- [Vercel](https://vercel.com/)
