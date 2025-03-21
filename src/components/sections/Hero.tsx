@@ -26,12 +26,24 @@ const Hero = () => {
 
       <div className="container mx-auto px-4 md:px-6 relative z-10">
         <div className="max-w-5xl mx-auto text-center">
-          <div
+            <div
             className="inline-block px-3 py-1 mb-6 rounded-full bg-sparky-maroon/10 text-sparky-maroon text-sm font-medium animate-fade-down opacity-0"
             style={{ animationDelay: "200ms" }}
-          >
-            Backed by SoDA, ACM, AIS at ASU
-          </div>
+            >
+            Backed by{" "}
+            <a href="https://www.linkedin.com/company/acm-asu/" target="_blank" rel="noopener noreferrer" >
+              ACM
+            </a>
+            ,{" "}
+            <a href="https://asu.campuslabs.com/engage/organization/the-ai-society" target="_blank" rel="noopener noreferrer" >
+              AIS
+            </a>
+            , &{" "}
+            <a href="https://asu.campuslabs.com/engage/organization/soda" target="_blank" rel="noopener noreferrer" >
+              SoDA
+            </a>{" "}
+            at ASU
+            </div>
 
           <h1
             className="heading-xl mb-6 animate-fade-down opacity-0"
