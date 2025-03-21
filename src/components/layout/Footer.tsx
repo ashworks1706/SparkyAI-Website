@@ -13,7 +13,7 @@ const Footer = () => {
               <span className="text-xl font-bold text-sparky-maroon">Sparky<span className="text-sparky-gold">AI</span></span>
             </div>
             <p className="text-gray-600 max-w-md">
-              An AI campus assistant leveraging multi-agent architecture with real-time data integration for FERPA-compliant resource retrieval.
+            An AI University assistant leveraging multi-agent architecture with real-time data integration. Combines Self improvement CRAG and Firebase analytics for resource retrieval across courses, shuttles, jobs, sports, events and much more.
             </p>
           </div>
 
@@ -30,9 +30,9 @@ const Footer = () => {
           <div>
             <h3 className="font-medium text-gray-900 mb-4">Resources</h3>
             <ul className="space-y-3">
-              <li><a href="#" className="text-gray-600 hover:text-sparky-maroon transition-colors">Documentation</a></li>
+              {/* <li><a href="#" className="text-gray-600 hover:text-sparky-maroon transition-colors">Documentation</a></li> */}
               <li><a href="https://github.com/somwrks/SparkyAI" className="text-gray-600 hover:text-sparky-maroon transition-colors">GitHub</a></li>
-              <li><a href="#" className="text-gray-600 hover:text-sparky-maroon transition-colors">Blog</a></li>
+              {/* <li><a href="#" className="text-gray-600 hover:text-sparky-maroon transition-colors">Blog</a></li> */}
             </ul>
           </div>
         </div>
